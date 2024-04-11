@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+
+        maven {
+            url = "https://maven.pkg.github.com/surepassio/esign-android-sdk-v2"
+            credentials {
+                username = ""
+                password = ""
+            }
+        }
+    }
+}
+rootProject.name = "ESign Sample App"
+include ':app'
