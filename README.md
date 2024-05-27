@@ -24,7 +24,7 @@ Sample application for eSign Android SDK - V2.
                 credentials {
                     username = "USER_NAME"
                     password = "PAT_TOKEN"//https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
-                    // (Allow Package Read Permission)l̥
+                    // (Allow Package Read Permission in token)
                 }
             }
     
@@ -83,7 +83,7 @@ For better clarification you can check the code details inside the project
 
 ### Change Theme Of SDK
 
-To customize the theme of the SDK, you can modify the `themes.xml` file:
+To customize the theme of the SDK, you can modify the `themes.xml` file. If your project has set up the theme in the `styles.xml` file instead, the steps will be the same for that as well.:
 
 1. **Locate the `themes.xml` file**:
    You can usually find this file in the `res/values` directory of your Android project.
