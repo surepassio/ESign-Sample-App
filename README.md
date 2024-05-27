@@ -20,11 +20,11 @@ Sample application for eSign Android SDK - V2.
             mavenCentral()
             //enter github user name and github token
             maven {
-                url = "https://maven.pkg.github.com/surepassio/esign-android-sdk-v2"
+                url = "https://maven.pkg.github.com/surepassio/esign-sample-app"
                 credentials {
                     username = "USER_NAME"
                     password = "PAT_TOKEN"//https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token
-                    // (Allow Package Read and Write Permission)
+                    // (Allow Package Read Permission)l̥
                 }
             }
     
